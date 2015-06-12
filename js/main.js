@@ -8,18 +8,21 @@ var myVar =
     function numba(string) {
         if (string < 7) {
             console.log("What a short little word!");
-        } else (string > 7) 
+        } else if (string > 7) {
             console.log("I'm sorry, but that's too many to count");
-         else (string === 7) {
+        } else if (string === 7) {
             console.log("7, What a perfect choice!")
         };
     };
 
+function inception(callback, value) {
+    callback(value);
+};
 
+function movie(title) {
+	console.log(title + " is a fantastic movie!")
+}
 
-//function inception(callback, value) {
-//	callback(value);
-//};
+var title = "Yentl"
 
-//var callback = 2
-//var value = 5
+inception(movie, title);
