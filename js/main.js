@@ -38,6 +38,6 @@ var ronaldReagan = {
 	yearsOfPresidency: "1981-1989"
 }
 
-var presidents = [ronaldReagan, georgeHWBush, georgeWBush, billClinton, barackObama]
+var presidents = [ronaldReagan, georgeHWBush, billClinton, georgeWBush, barackObama]
 
-console.log(presidents[3].firstName + " " + presidents[3].lastName)
+console.log(presidents[2].firstName + " " + presidents[2].lastName)
